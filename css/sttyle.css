@@ -98,20 +98,39 @@ body {
     color: #1b357e;
 }
 
+.contato {
+    display: flex;
+    justify-content: space-between;
+    padding: 20%;
+    flex-direction: column;
+}
+.apresentacao_contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 
+.titulo_contato {
+   
+}
+.carro {
+    display: flex;
+    justify-content: left;
+    
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
 
 .rodape {
-    /* position: fixed; */
     width: 100%;
-    /* height: 3rem; */
-    /* position: static;
-    top: 0%;
-    bottom: 0%;
-    left: 5%;
-    right: 1%; */
 	background-color: #1b357e;
 	justify-content: space-between;
-	/* align-items: center; */
 	display: flex;
 	padding: 1rem;
 }
@@ -119,8 +138,7 @@ body {
 .grupo_apps {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	
+	justify-content: space-between;	
 }
 
 .redes_sociais {

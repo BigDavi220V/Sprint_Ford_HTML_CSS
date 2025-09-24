@@ -18,14 +18,34 @@
         
     </header>
 
-        <main class="apresentacao">
-            <section class="apresentacao_conteudo">
-
+        <main class="contato">
+            <section class="apresentacao_contato">
+                <h2 class="titulo_contato">Sobre você</h2>
+                <img src="/img/storm.jpg" alt="Ford_Storm" class="carro"
+                    <form action="" method="post" class="formulario">
+                        <label for="campoNome">Nome:</label>
+                        <input type="text" id="'campoNome" placeholder="Digite seu nome completo"> 
+                        <br>
+                        <label for="campoTelefone">Telefone</label>
+                        <input type="tel" id="campoTelefone" placeholder="Telefone"> 
+                        <br>
+                        <label for="campoEmail">E-mail</label>
+                        <input type="text" id="campoEmail" placeholder="E-mail"> 
+                        <br>
+                        <label for="campoSelecao">Tipo de contato</label>
+                        <select name="tipo_de_contato" id="campoSelecao">
+                            <option value="" selected disabled hidden>Escolha aqui</option> <--!>
+                            <option value="elogio">Elogio</option>
+                            <option value="reclamacao">Reclamação</option>
+                            <option value="solicitacao">Solicitação</option>
+                        </select>
+                        <br>
+                        <label for="campoComentario">Cometário</label>
+                        <input type="text" id="campoCometario" placeholder="Comentário">
+                        <br>
+                        <button>Enviar</button>
+                    </form>
             
-           
-            
-       
-
             </section>
         </main>
     
@@ -44,4 +64,4 @@
     </footer>
 
 </body>
-</html>
+</html>          
