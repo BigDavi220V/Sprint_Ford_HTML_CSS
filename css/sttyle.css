@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Krona+One&family=Montserrat:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -99,30 +99,112 @@ body {
 }
 
 .contato {
+    padding: 6% 15%;
     display: flex;
-    flex-direction:column;
     align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
     
    
-}
 
 .apresentacao_contato {
-    display: flexbox;
-    justify-content: space-between;
+    
+    width: 20%;
+    display: flex;
     flex-direction: column;
+    gap: 40px;
     
 }
 
-.formulario_contato {
-    display: flexbox;
-    justify-content: space-between;
-    flex-direction: column;
-    float: right;
-    gap: 2rem;
+.subtitulo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-weight: 500;
+    font-size: larger;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 3;
+ 
 }
+.titulo_contato {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+
+.nome_input {
+    font-family: "Ubuntu", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: larger;
+    justify-content: left;
+    line-height: 2;
+}
+.input_dados {
+    width: 30rem;
+    height: 3rem;
+    border: 1px #e4e6ebab;
+    border-radius: 1rem;
+    text-align: left;
+    text-indent: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: medium;
+}
+    
+.nome_input_select {
+    width: 30rem;
+    height: 3rem;
+    border: 1px #e4e6ebab;
+    border-radius: 1rem;
+    text-align: left;
+    text-indent: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    text-decoration-line: overline;
+    appearance: none;
+    padding: 0.5em 1em;
+    font-size: 16px;
+    color: #141414;
+    cursor: pointer;
+    
+    
+   
+    
+}
+
+.opcoes_select {
+    border: 1px #e4e6ebab;
+    border-radius: 1rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    justify-content: left;
+    line-height: 2;
+}
+   
+
+
 .carro {
-    float: left;
-    gap: 5rem;
+    display: flex;
+    height: 50rem;
+    
+    
+}
+
+.bottom_enviar_contato {
+    border: 1px #2b5edfc2;
+    border-radius: 1rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    color:whitesmoke;
+    height: 3rem;
+    width: 30rem;
+    background-color: #2b5edfc2;
+    justify-content: center;
 }
 
 .rodape {

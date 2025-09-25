@@ -20,37 +20,49 @@
 
         <main class="contato">
             <section class="apresentacao_contato">
-                <h2 class="titulo_contato">Sobre você</h2>
 
-                
-                <img src="/img/storm.jpg" alt="Ford_Storm" class="carro">
                 <div class="formulario contato">
+                    
+                    
+                    <img src="/img/xls.2.2.diesel_melhorado.png" alt="Ford_Storm" class="carro">
+                    
                     <form action="" method="" class="formulario_dados">
-                        <label for="campoNome">Nome:</label>
-                        <input type="text" id="'campoNome" placeholder="Digite seu nome completo"> 
+
+                        <div class="subtitulo">
+                        <h2 class="titulo_contato">Contato</h2>
+                        </div>
+
+                        <label class="nome_input" for="campoNome">Nome Completo:</label>
+                        <input class="input_dados" type="text" id="campoNome" placeholder="Digite seu nome completo"> 
                         <br>
-                        <label for="campoTelefone">Telefone</label>
-                        <input type="tel" id="campoTelefone" placeholder="Telefone"> 
+                        <label class="nome_input" for="campoTelefone">Telefone</label>
+                        <input class="input_dados" type="tel" id="campoTelefone" placeholder="Telefone"> 
                         <br>
-                        <label for="campoEmail">E-mail</label>
-                        <input type="text" id="campoEmail" placeholder="E-mail"> 
+                        <label class="nome_input" for="campoEmail">E-mail</label>
+                        <input class="input_dados" type="text" id="campoEmail" placeholder="E-mail"> 
                         <br>
-                        <label for="campoSelecao">Tipo de contato</label>
-                        <select name="tipo_de_contato" id="campoSelecao">
-                            <option value="" selected disabled hidden>Escolha aqui</option> <--!>
-                            <option value="elogio">Elogio</option>
-                            <option value="reclamacao">Reclamação</option>
-                            <option value="solicitacao">Solicitação</option>
+                        <br>
+                        <label class="nome_input" for="campoSelecao">Tipo de contato</label>
+                        <BR>
+                        <select class="nome_input_select" name="tipo_de_contato" id="campoSelecao">
+                            <option class="opcoes_select" value="" selected disabled hidden>Escolha aqui</option> <--!>
+                            <option class="opcoes_select" value="elogio">Elogio</option>
+                            <option class="opcoes_select" value="reclamacao">Reclamação</option>
+                            <option class="opcoes_select" value="solicitacao">Solicitação</option>
                         </select>
                         <br>
-                        <label for="campoComentario">Cometário</label>
-                        <input type="text" id="campoCometario" placeholder="Comentário">
                         <br>
-                        <button>Enviar</button>
+                        <label class="nome_input" for="campoComentario">Cometário</label>
+                        <input class="input_dados" type="text" id="campoCometario" placeholder="Comentário">
+                        <br>
+                        <br>
+                        <button class="bottom_enviar_contato">Enviar</button>
                     </form>
                 </div>
             </section>
         </main>
+                
+                
     
 
     <footer class="rodape">
