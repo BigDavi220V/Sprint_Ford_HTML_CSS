@@ -100,31 +100,29 @@ body {
 
 .contato {
     display: flex;
-    justify-content: space-between;
-    padding: 20%;
-    flex-direction: column;
-}
-.apresentacao_contato {
-    display: flex;
-    justify-content: space-between;
+    flex-direction:column;
     align-items: center;
     
-}
-
-.titulo_contato {
    
 }
-.carro {
-    display: flex;
-    justify-content: left;
-    
 
+.apresentacao_contato {
+    display: flexbox;
+    justify-content: space-between;
+    flex-direction: column;
+    
 }
 
-.formulario {
-    display: flex;
+.formulario_contato {
+    display: flexbox;
+    justify-content: space-between;
     flex-direction: column;
-    justify-content: right;
+    float: right;
+    gap: 2rem;
+}
+.carro {
+    float: left;
+    gap: 5rem;
 }
 
 .rodape {
