@@ -110,7 +110,7 @@ body {
 }
 
 .rodape {
-    
+    height: 2;
     width: 100%;
     background-color: #1b357e;
     justify-content: space-between;
@@ -119,7 +119,13 @@ body {
     
 }
 
+#copyrigth {
+    font-size: medium;
+    color: azure;
+    font-family: 'Inter' sans-serif;
+    font-weight: 200;
 
+}
 
 .grupo_apps {
     display: flex;
@@ -206,7 +212,7 @@ body {
     
 .nome_input_select {
     
-    /* width: 30rem; */
+    
     width: 100%;
     height: 3rem;
     border: 1px #e4e6ebab;
@@ -361,11 +367,15 @@ body {
 }
 
 /* Media Queries */ /* Media Queries */  /* Media Queries */  /* Media Queries */
+/* Media Queries */ /* Media Queries */  /* Media Queries */  /* Media Queries */
+/* Media Queries */ /* Media Queries */  /* Media Queries */  /* Media Queries */
 
+/* Página HOME */ /* Página HOME */ /* Página HOME */ /* Página HOME */
+/* Página HOME */ /* Página HOME */ /* Página HOME */ /* Página HOME */
+/* Página HOME */ /* Página HOME */ /* Página HOME */ /* Página HOME */
+/* Página HOME */ /* Página HOME */ /* Página HOME */ /* Página HOME */
 
-/* Página HOME */
-
-@media(min-width: 320px) and (max-width: 360px){
+@media(min-width: 320px) and (max-width: 430px){
     body {
         background-color: whitesmoke;
         margin: 0;
@@ -404,8 +414,16 @@ body {
     
 }
 
+.apresentacao {
+   
+   width: 100%;
+   margin-bottom: 2rem;
+   
+}
 .apresentacao_conteudo {
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
     .descricao {
     
@@ -426,7 +444,6 @@ body {
 .ranger {
     width: 180%;
     
-    
 }
 
 .rodape {
@@ -437,7 +454,9 @@ body {
     width: 100%;
 }
 
-/* Lancamento */
+/* Lancamento */ /* Lancamento */ /* Lancamento */ /* Lancamento */
+/* Lancamento */ /* Lancamento */ /* Lancamento */ /* Lancamento */
+/* Lancamento */ /* Lancamento */ /* Lancamento */ /* Lancamento */
 
 
 .video {
@@ -465,7 +484,7 @@ body {
 }
 
 .info_table {
-    /* flex-direction: column; */
+
     align-items: center;
     width: 100%;
     
@@ -540,9 +559,14 @@ body {
 
 .input_comentario {
 
-display: block;
-max-width: 20rem;
-min-width: 20rem;
+    display: block;
+    max-width: 20rem;
+    min-width: 20rem;
+    width: 100%;
+    height: 7rem;
+
+
+
 }
 
 .bottom_enviar_contato {
@@ -552,8 +576,6 @@ min-width: 20rem;
     align-items: center;
 }
 
-
-
-
-
+/* Aqui foi a responsividade para SmartPhone e Iphone */
 }
+
