@@ -14,7 +14,7 @@ body {
     
 }
 
-
+/*Home*/
 .cabecalho {
     display: flex;
     justify-content:left;
@@ -103,6 +103,31 @@ body {
     text-decoration: none;
     color: #1b357e;
 }
+
+.rodape {
+    width: 100%;
+    background-color: #1b357e;
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem;
+    
+}
+
+
+
+.grupo_apps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;	
+}
+
+
+.redes_sociais {
+    color: white;
+}
+
+
+/* Contato */
 
 .contato {
     padding: 2% 5%;
@@ -217,24 +242,7 @@ body {
     justify-content: center;
 }
 
-.rodape {
-    width: 100%;
-	background-color: #1b357e;
-	justify-content: space-between;
-	display: flex;
-	padding: 1rem;
-    
-}
-
-.grupo_apps {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;	
-}
-
-.redes_sociais {
-	color: white;
-}
+/* Lançamento */
 
 .video {
     width: 100%;
@@ -317,3 +325,164 @@ body {
     justify-content: center;
 }
 
+/* Media Queries */ /* Media Queries */  /* Media Queries */  /* Media Queries */
+
+
+/* Página HOME */
+
+@media(min-width: 320px) and (max-width: 360px){
+    body {
+        background-color: whitesmoke;
+        margin: 0;
+        padding: 0;
+    }
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding-left: 0;
+        
+    }
+    .logo_ford {
+        width: 15rem;
+        margin: auto;
+    }
+
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        
+        
+    }
+
+    .menu_links {
+        margin-top: 0;
+        border: 0;
+        
+    }
+    .menu_links:hover{
+        background-color: rgba(82, 159, 226, 0.242);
+    padding: 0.3rem;
+    
+}
+
+.apresentacao_conteudo {
+    gap: 3rem;
+}
+    .descricao {
+    
+	padding-top: 1rem;
+	color: black;
+    font-family: 'Inter' sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.descricao_link {
+    font-family: 'Inter' sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #1b357e;
+}
+
+.ranger {
+    width: 180%;
+    
+    
+}
+
+.rodape {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+/* Lancamento */
+
+
+.video {
+    width: 180%;
+    height: 50%;
+    border-radius: 0;
+    
+}
+
+.apresentacao_carros {
+    gap: 2rem;
+}
+
+.corpo_table {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.line_table {
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+}
+
+.info_table {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.img_table {
+    width: 100%;
+}
+
+#comparar {
+    width: 100%;
+}
+
+/* Contato */
+
+.contato {
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+.apresentacao_contato {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+
+.formulario_contato {
+    width: 100%;
+    
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.carro {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+    
+}
+
+
+
+
+
+
+
+}
