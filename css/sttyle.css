@@ -10,11 +10,16 @@ body {
     background-color: #eee8e8d2;
     margin: 0;
     padding: 0;
+    
    
     
 }
 
-/*Home*/
+
+
+/*Home*/ /*Home*/ /*Home*/ /*Home*/ /*Home*/ /*Home*/ /*Home*/ /*Home*/
+/*Home*/ /*Home*/ /*Home*/ /*Home*/ /*Home*/ /*Home*/ /*Home*/ /*Home*/ 
+/*Home*/ /*Home*/ /*Home*/ /*Home*/ /*Home*/ /*Home*/ /*Home*/ /*Home*/ 
 .cabecalho {
     display: flex;
     justify-content:left;
@@ -105,6 +110,7 @@ body {
 }
 
 .rodape {
+    
     width: 100%;
     background-color: #1b357e;
     justify-content: space-between;
@@ -127,10 +133,12 @@ body {
 }
 
 
-/* Contato */
+/* Contato */ /* Contato */ /* Contato */ /* Contato */ /* Contato */ /* Contato */ /* Contato */
+/* Contato */ /* Contato */ /* Contato *//* Contato */ /* Contato */ /* Contato */ 
+/* Contato */ /* Contato */ /* Contato */ /* Contato */ /* Contato */ /* Contato */ 
 
 .contato {
-    padding: 2% 5%;
+    padding: 5% 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,10 +149,19 @@ body {
 
 .apresentacao_contato {
     
-    width: 20%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    
+}
+
+.formulario_contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
     
 }
 
@@ -174,7 +191,7 @@ body {
     line-height: 2;
 }
 .input_dados {
-    /* width: 30rem; */
+    
     max-width: 30rem;
     width: 100%;
     height: 3rem;
@@ -188,7 +205,9 @@ body {
 }
     
 .nome_input_select {
-    width: 30rem;
+    
+    /* width: 30rem; */
+    width: 100%;
     height: 3rem;
     border: 1px #e4e6ebab;
     border-radius: 1rem;
@@ -203,11 +222,26 @@ body {
     color: #141414;
     cursor: pointer;
     
-    
-   
-    
 }
 
+.input_comentario {
+    display: block;
+    max-width: 30rem;
+    min-width: 30rem;
+    width: 100%;
+    height: 7rem;
+    border: 1px #e4e6ebab;
+    text-align: left;
+    text-indent: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: medium;
+    
+    
+
+}
+
+/* .input_comentario::placeholder {text-align:left;} */
 .opcoes_select {
     border: 1px #e4e6ebab;
     border-radius: 1rem;
@@ -242,7 +276,9 @@ body {
     justify-content: center;
 }
 
-/* Lançamento */
+/* Lançamento */ /* Lançamento */ /* Lançamento */ /* Lançamento */ /* Lançamento */
+/* Lançamento */ /* Lançamento */ /* Lançamento */ /* Lançamento */ /* Lançamento */ 
+/* Lançamento */ /* Lançamento */ /* Lançamento */ /* Lançamento */ /* Lançamento */ 
 
 .video {
     width: 100%;
@@ -264,7 +300,6 @@ body {
 
  .corpo_table {
     display: flex;
-    flex-direction: row;
       
  }
  .line_table {
@@ -284,7 +319,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5%;
+    /* padding: 5%; */
     gap: 1.5rem;
     
 }
@@ -370,7 +405,7 @@ body {
 }
 
 .apresentacao_conteudo {
-    gap: 3rem;
+    gap: 1rem;
 }
     .descricao {
     
@@ -430,10 +465,14 @@ body {
 }
 
 .info_table {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     width: 100%;
     
+}
+
+.description_table {
+    font-size: 1rem;  
 }
 
 .img_table {
@@ -444,16 +483,18 @@ body {
     width: 100%;
 }
 
-/* Contato */
+/* Contato */  /* Contato */  /* Contato */  /* Contato */ /* Contato */
+/* Contato */ /* Contato */ /* Contato */ /* Contato */ /* Contato */
 
 .contato {
     flex-direction: column;
     align-items: center;
-    
+    display: flex;
     justify-content: center;
 }
 
 .apresentacao_contato {
+    display: flex;
     width: 100%;
     align-items: center;
     text-align: center;
@@ -462,12 +503,21 @@ body {
 }
 
 .formulario_contato {
+    display: flex;
     width: 100%;
-    
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
     
+}
+
+.formulario_dados {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .carro {
@@ -475,11 +525,32 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
+    height: 5%;
     gap: 2rem;
     
 }
 
+.nome_input_select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
 
+.input_comentario {
+
+display: block;
+max-width: 20rem;
+min-width: 20rem;
+}
+
+.bottom_enviar_contato {
+    height: 3rem;
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
