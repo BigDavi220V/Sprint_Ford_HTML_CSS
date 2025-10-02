@@ -9,7 +9,7 @@
 
 body {
 
-    /* background-color: #eee8e8d2; */
+    
     background-color: #FBFBFB;
     margin: 0;
     padding: 0;
@@ -19,40 +19,10 @@ body {
 }
 
 
-
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
-/*Home*/
 .cabecalho {
     display: flex;
     justify-content: left;
     align-items: center;
-    padding-left: 2rem;
-    padding: 1rem;
-    padding-bottom: 0;
-
-
 
 }
 
@@ -77,13 +47,10 @@ body {
     cursor: default;
     font-size: 2rem;
     text-decoration: none;
-    border-style: hidden;
-    border-width: medium;
+    border-style: hidden #eee8e8d2;
     border: #1b357e;
-    border: 2px solid #eee8e8d2;
-    border-radius: 10px;
     font-weight: 400;
-    margin-top: 2rem;
+    
 }
 
 .menu_links:hover {
@@ -166,28 +133,9 @@ body {
 }
 
 
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
-/* Contato */
 
 .contato {
-    /* padding: 5% 10%; */
+   
     padding: 5% 7%;
     display: flex;
     align-items: center;
@@ -252,14 +200,16 @@ body {
     max-width: 30rem;
     width: 100%;
     height: 3rem;
-    border: 1px #e4e6ebab;
+    border: 1px rgb(0, 0, 0);
     border-radius: 1rem;
     text-align: left;
     text-indent: 20px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-style: medium;
+    background-color: #e4e6ebab;
 }
+
 
 .nome_input_select {
 
@@ -293,7 +243,7 @@ body {
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-style: medium;
-
+    background-color: #e4e6ebab;
 
 
 }
@@ -314,10 +264,6 @@ body {
 .carro {
     display: flex;
     height: 5%;
-
-
-
-
 }
 
 .bottom_enviar_contato {
@@ -333,21 +279,6 @@ body {
     justify-content: center;
 }
 
-/* Lançamento */
-/* Lançamento */
-/* Lançamento */
-/* Lançamento */
-/* Lançamento */
-/* Lançamento */
-/* Lançamento */
-/* Lançamento */
-/* Lançamento */
-/* Lançamento */
-/* Lançamento */
-/* Lançamento */
-/* Lançamento */
-/* Lançamento */
-/* Lançamento */
 
 .video {
     width: 100%;
@@ -369,36 +300,28 @@ body {
 
 .corpo_table {
     display: flex;
-
 }
 
 .line_table {
     display: flex;
     flex-direction: column;
-
 }
 
 .img_table {
     width: 88%;
     justify-content: space-between;
-
-
 }
 
 .info_table {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 5%; */
     gap: 1.5rem;
-
 }
 
 .check_table {
     width: 2rem;
     height: 2rem;
-
-
 }
 
 .description_table {
@@ -408,7 +331,6 @@ body {
     cursor: default;
     font-size: 2rem;
     text-decoration: none;
-
 }
 
 .button_comparar {
@@ -432,41 +354,17 @@ body {
 }
 
 /* Media Queries */
-/* Media Queries */
-/* Media Queries */
-/* Media Queries */
-/* Media Queries */
-/* Media Queries */
-/* Media Queries */
-/* Media Queries */
-/* Media Queries */
-/* Media Queries */
-/* Media Queries */
-/* Media Queries */
+
 
 /* Página HOME */
-/* Página HOME */
-/* Página HOME */
-/* Página HOME */
-/* Página HOME */
-/* Página HOME */
-/* Página HOME */
-/* Página HOME */
-/* Página HOME */
-/* Página HOME */
-/* Página HOME */
-/* Página HOME */
-/* Página HOME */
-/* Página HOME */
-/* Página HOME */
-/* Página HOME */
+
 
 @media(min-width: 320px) and (max-width: 828px) {
     body {
         background-color: #FBFBFB;
         margin: 0;
         padding: 0;
-       
+
     }
 
     .cabecalho {
@@ -511,7 +409,7 @@ body {
         /* margin-bottom: 10%; */
         margin-top: 5rem;
         padding: 3%;
-        
+
 
     }
 
@@ -520,7 +418,7 @@ body {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        
+
     }
 
     .descricao {
@@ -542,7 +440,7 @@ body {
     .ranger {
         display: flex;
         width: 100%;
-        
+
     }
 
     .rodape {
@@ -551,22 +449,12 @@ body {
         gap: 1rem;
         text-align: center;
         width: 100%;
-        margin-top: 5rem;
-    
+        margin-top: 6rem;
+
     }
 
     /* Lancamento */
-    /* Lancamento */
-    /* Lancamento */
-    /* Lancamento */
-    /* Lancamento */
-    /* Lancamento */
-    /* Lancamento */
-    /* Lancamento */
-    /* Lancamento */
-    /* Lancamento */
-    /* Lancamento */
-    /* Lancamento */
+   
 
 
     .video {
@@ -578,7 +466,7 @@ body {
 
     .apresentacao_carros {
         gap: 2rem;
-        
+
     }
 
     .corpo_table {
@@ -721,24 +609,20 @@ body {
 
 
     /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-
     .cabecalho {
         display: flex;
-        justify-content: left;
+        justify-content: center;
         align-items: center;
         padding-left: 2rem;
         padding: 1rem;
-        padding-bottom: 0;
-
-
+        height: 6rem;
+        background-color: #1b357e;
+        width: 100%;
 
     }
 
     .logo_ford {
+        left: 1%;
         width: 15rem;
     }
 
@@ -755,21 +639,16 @@ body {
 
     .menu_links {
         font-family: 'Inter' sans-serif;
-        color: #1b357e;
+        color: #FBFBFB;
         cursor: default;
         font-size: 2rem;
         text-decoration: none;
-        border-style: hidden;
-        border-width: medium;
-        border: #1b357e;
-        border: 2px solid #eee8e8d2;
-        border-radius: 10px;
+        border-style: hidden ;
         font-weight: 400;
-        margin-top: 2rem;
     }
 
     .menu_links:hover {
-        background-color: rgba(53, 153, 235, 0.473);
+        background-color: #fbfbfb8c(7, 99, 192, 0.747);
         padding: 0.3rem;
 
     }
@@ -795,6 +674,7 @@ body {
 
     .ranger {
         width: 100%;
+        
     }
 
     .descricao {
@@ -814,7 +694,7 @@ body {
     }
 
     .rodape {
-        height: 2;
+        height: 2%;
         width: 100%;
         background-color: #1b357e;
         justify-content: space-between;
@@ -846,25 +726,6 @@ body {
 
 
     /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-    /* Contato */
-
     .contato {
 
         display: flex;
@@ -1012,21 +873,6 @@ body {
     }
 
     /* Lançamento */
-    /* Lançamento */
-    /* Lançamento */
-    /* Lançamento */
-    /* Lançamento */
-    /* Lançamento */
-    /* Lançamento */
-    /* Lançamento */
-    /* Lançamento */
-    /* Lançamento */
-    /* Lançamento */
-    /* Lançamento */
-    /* Lançamento */
-    /* Lançamento */
-    /* Lançamento */
-
     .video {
         width: 100%;
         height: 50rem;
