@@ -9,7 +9,8 @@
 
 body {
 
-    background-color: #eee8e8d2;
+    /* background-color: #eee8e8d2; */
+    background-color: #FBFBFB;
     margin: 0;
     padding: 0;
 
@@ -106,7 +107,6 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-
     align-items: center;
 }
 
@@ -461,11 +461,12 @@ body {
 /* Página HOME */
 /* Página HOME */
 
-@media(min-width: 320px) and (max-width: 430px) {
+@media(min-width: 320px) and (max-width: 828px) {
     body {
-        background-color: whitesmoke;
+        background-color: #FBFBFB;
         margin: 0;
         padding: 0;
+       
     }
 
     .cabecalho {
@@ -504,20 +505,26 @@ body {
     }
 
     .apresentacao {
-
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        margin-bottom: 2rem;
+        /* margin-bottom: 10%; */
+        margin-top: 5rem;
+        padding: 3%;
+        
 
     }
 
     .apresentacao_conteudo {
         display: flex;
         flex-direction: column;
-        gap: 3rem;
+        align-items: center;
+        width: 100%;
+        
     }
 
     .descricao {
-
+        text-align: center;
         padding-top: 1rem;
         color: black;
         font-family: 'Inter' sans-serif;
@@ -533,8 +540,9 @@ body {
     }
 
     .ranger {
-        width: 180%;
-
+        display: flex;
+        width: 100%;
+        
     }
 
     .rodape {
@@ -543,6 +551,8 @@ body {
         gap: 1rem;
         text-align: center;
         width: 100%;
+        margin-top: 5rem;
+    
     }
 
     /* Lancamento */
@@ -560,14 +570,15 @@ body {
 
 
     .video {
-        width: 180%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
         border-radius: 0;
 
     }
 
     .apresentacao_carros {
         gap: 2rem;
+        
     }
 
     .corpo_table {
@@ -703,13 +714,8 @@ body {
     }
 
     body {
-
-        background-color: #eee8e8d2;
         margin: 0%;
         padding: 0%;
-
-
-
     }
 
 
@@ -719,25 +725,7 @@ body {
     /*Home*/
     /*Home*/
     /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
-    /*Home*/
+
     .cabecalho {
         display: flex;
         justify-content: left;
@@ -833,7 +821,7 @@ body {
         display: flex;
         padding: 1rem;
         flex: auto;
-
+        margin-top: 3rem;
 
     }
 
